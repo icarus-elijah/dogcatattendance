@@ -1,6 +1,8 @@
 public class Animal {
 
-      public void Animal(){
-
+      private String name;
+      
+      public void Animal(String name){
+            this.name = name;
       }
 }
